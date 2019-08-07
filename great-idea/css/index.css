@@ -154,6 +154,7 @@ body {
 p {
 	font-size: 1.1rem;
 	padding: 10px 0;
+	font-weight: 500;
 }
 
 h1,
@@ -164,6 +165,7 @@ h5 {
 	font-family: 'Bangers', cursive;
 	letter-spacing: 1px;
 	margin-bottom: 15px;
+	font-size: 1.2rem;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
@@ -271,4 +273,22 @@ nav a {
 	color: black;
 	padding: 10px 43px;
 	border-radius: 10px;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+
+
+.wrapper p {
+	width: 500px;
+	margin-right: 10px;
+}
+
+.wrapper ul li {
+	list-style-type: square;
+	margin-left: 20px;
+	padding: 10px;
 }
