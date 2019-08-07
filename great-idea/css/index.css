@@ -255,6 +255,7 @@ nav a {
 .parent {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .children {
@@ -263,8 +264,8 @@ nav a {
 	width: 45%;
 	border: 1px solid black;
 	background: #f4f3f4;
-	margin: 20px auto;
 	padding: 20px;
+	margin: 20px;
 }
 
 .children a {
@@ -273,6 +274,10 @@ nav a {
 	color: black;
 	padding: 10px 43px;
 	border-radius: 10px;
+}
+
+.children img {
+	width: 200px;
 }
 
 .wrapper {
@@ -291,4 +296,22 @@ nav a {
 	list-style-type: square;
 	margin-left: 20px;
 	padding: 10px;
+}
+
+.darker {
+	border: 1px solid black;
+}
+
+.img-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.img-container img {
+	width: 500px;
+}
+
+footer {
+	margin-top: 50px
 }
