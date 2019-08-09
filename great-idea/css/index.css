@@ -305,13 +305,15 @@ nav a {
 .img-container {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 .img-container img {
-	width: 400px;
+	width: 300px;
 	margin: 10px;
+	
 }
+
 
 footer {
 	margin-top: 50px
